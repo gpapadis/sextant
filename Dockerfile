@@ -3,7 +3,6 @@ MAINTAINER George Papadakis <gpapadis@di.uoa.gr>
 
 ENV TOMCAT_MAJOR_VERSION 7
 ENV TOMCAT_MINOR_VERSION 7.0.55
-ENV CATALINA_HOME /tomcat
 
 RUN apt-get update && \
     apt-get install -y \
